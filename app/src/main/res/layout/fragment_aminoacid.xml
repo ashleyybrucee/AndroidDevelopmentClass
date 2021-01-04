@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+fragment_aminoacid.xml
+Final Project | CIS 207
+Cuesta College | R. Scovil
+Ashley Bruce | ashley_bruce1@my.cuesta.edu
+ -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/amino_acid_name"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amino_acid_header"/>
+
+    <TextView
+        android:id="@+id/abbreviation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="@string/abbrev"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/picture"/>
+    <ImageView
+        android:id="@+id/aa_picture"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:cropToPadding="true"
+        android:src="@drawable/alanine"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/more_info"/>
+    <TextView
+        android:id="@+id/side_chain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/side_chain"/>
+
+    <TextView
+        android:id="@+id/pKa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pKa"/>
+
+
+
+
+</LinearLayout>

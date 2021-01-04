@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+activity_main_menu.xml
+Final Project | CIS 207
+Cuesta College | R. Scovil
+Ashley Bruce | ashley_bruce1@my.cuesta.edu
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp"
+        android:paddingBottom="40dp"
+        android:gravity="center"
+        android:text="@string/main_menu_header"/>
+
+    <Button
+        android:id="@+id/show_amino_acids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/aa_button"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/generalbiochem"/>
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/about_button"/>
+
+    <TextView
+        android:id="@+id/about_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/creator"/>
+
+
+</LinearLayout>

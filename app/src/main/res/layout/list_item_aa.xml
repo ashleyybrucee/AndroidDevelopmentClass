@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+list_item_aa.xml
+Final Project | CIS 207
+Cuesta College | R. Scovil
+Ashley Bruce | ashley_bruce1@my.cuesta.edu
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/list_aa_name"
+        style="?android:listSeparatorTextViewStyle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amino Acid"/>
+
+</LinearLayout>

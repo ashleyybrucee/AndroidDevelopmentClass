@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+activity_main.xml
+Final Project | CIS 207
+Cuesta College | R. Scovil
+Ashley Bruce | ashley_bruce1@my.cuesta.edu
+ -->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

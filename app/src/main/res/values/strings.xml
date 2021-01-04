@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Amino Acids</string>
+    <string name="amino_acid_header">Amino Acid Name</string>
+    <string name="abbrev">Letter Abbreviation  ||  Short Abbreviation</string>
+    <string name="picture">Chemical Structure</string>
+    <string name="side_chain">Side Chain</string>
+    <string name="more_info">Other Information</string>
+    <string name="pKa">pKa</string>
+    <string name="main_menu_header">Amino Acid Information</string>
+    <string name="aa_button">Amino Acids</string>
+    <string name="about_button">About</string>
+    <string name="creator">Created by Ashley Bruce</string>
+
+</resources>
